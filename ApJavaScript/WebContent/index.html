@@ -2,14 +2,28 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<re
+		<link rel="text/css" href="./bootstrap.mim.css" />
+		<link rel="text/css" href="./style.css" />
 		<script type="text/javascript" src="./teste1.js"></script>
-		
 	</head>
-	<title>Insert title here</title>
-<body>
-	<p id="parag">Primeiro Parágrafo:</p>
-	<button  type="button" value="Ação-1" onclick="mudaHTML()">Ação-1</button>
 	
-</body>
+	<title>Insert title here</title>
+	
+	<body>
+		<div class="row">
+		<div class="col-6">
+		
+		<p id="parag">Exemplo de Javascript mudando um paragrafo, através de "getElementById".</p>
+		<button type="button" value="Ação-1" onclick="mudaHTML()">Ação-1</button>
+		
+		</div>
+		<div class="col-6">
+			<div id="mudaClass" class="original">
+		
+			<p id="parag">Exemplo de Javascript mudando o css, alteração do class para uma DIV.</p>
+			<button type="button" value="mudaClass" onclick="mudaClass()">Mudando formatação da Class</button>
+			</div>
+		</div>
+		</div>
+	</body>
 </html>

@@ -1,0 +1,12 @@
+.original {
+	border: solid black 1px;
+	font-size: 12px;
+	font: bold;
+	background: green;
+}
+.alterado {
+	border: solid black 1px;
+	font-size: 18px;
+	font:italic;
+	background: gray;
+}
